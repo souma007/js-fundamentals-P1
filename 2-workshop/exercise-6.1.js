@@ -5,8 +5,9 @@ function exercise6_1() {
   // all of the integers from 0 to 100.
   //
   // Write code between the lines (below)
-  // -----------------------------------------------------------------
-  // -----------------------------------------------------------------
+    for (i=0 ; i<=100; i++) {
+      console.log(i);
+    }
   // Write code between the lines (above)
   //
   //
@@ -15,7 +16,7 @@ function exercise6_1() {
   //
   //
 }
-
+exercise6_1();
 // Once you are done type the following in the terminal to test your answer(s).
 // yarn test exercise-6.1
 

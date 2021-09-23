@@ -5,8 +5,11 @@ function exercise6_4() {
   // all of the EVEN integers from 36 to 0.
   //
   // Write code between the lines (below)
-  // -----------------------------------------------------------------
-  // -----------------------------------------------------------------
+  for (let number = 36; number >=0; number--) {
+    if (number % 2 === 0) {
+      console.log(number);
+      }
+  } 
   // Write code between the lines (above)
   //
   //
@@ -15,7 +18,7 @@ function exercise6_4() {
   //
   //
 }
-
+exercise6_4();
 // Once you are done type the following in the terminal to test your answer(s).
 // yarn test exercise-6.4
 
